@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+#logo-meteor {
+  font-size: 2rem;
+  color: #4f47e6;
+}
+
+.container-principal-banner {
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container-principal-banner h1 {
+  font-size: 4rem;
+}
+
+.pricing-content {
+  color: #4f47e6;
+  font-weight: 500;
+}
+
+.content-text-principal-banner {
+  font-size: 1.5rem;
+  color: gray;
+  margin-top: 0.5rem;
+}
+
+.container-geral-toggle {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.container-toggle {
+  border: 1px solid gray;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 26px;
+}
+
+#btn-1 {
+  background-color: #4f4fe6;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+#btn-2 {
+  background-color: transparent;
+  border: none;
+  color: gray;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.container-card {
+  border: 1px solid gray;
+  width: 28%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 24px;
+}
+
+.title-card {
+  font-size: 20px;
+}
+
+.container-card p {
+  color: gray;
+}
+
+.container-card .price-card {
+  font-weight: bold;
+  color: black;
+  font-size: 32px;
+}
+
+.btn-card {
+  border: 1px solid #a9a9ec;
+  background-color: transparent;
+  color: #4f4fe6;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.container-list-card {
+  list-style: none;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-list-card i {
+  color: #4f4fe6;
+  margin-right: 8px;
+}
+
+.container-geral-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+#card-selected {
+  border: 2px solid #4f4fe6;
+}
+
+#card-selected h2 {
+  color: #4f4fe6;
+}
+
+#card-selected .btn-card {
+  color: white;
+  background-color: #4f4fe6;
+}
+
+.container-title-popular {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-title-popular span {
+  background-color: #edebff;
+  color: #4f4fe6;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.container-section-faq {
+  display: flex;
+  justify-content: center;
+}
+
+.container-div-faq {
+  width: 70%;
+}
+
+.title-faq {
+  font-size: 40px;
+  margin: 40px 0;
+}
+
+.container-list-faq {
+  list-style: none;
+}
+
+.container-list-faq li {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  border-bottom: 1px solid #cac9c9;
+  font-weight: 700;
+}
+
+footer {
+  padding: 2rem;
+}
+
+#logo-meteor {
+  font-size: 2rem;
+  color: #4f4fe6;
+}
+
+.parte-1-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+  border-bottom: 1px solid gray;
+}
+
+.parte-1-footer nav {
+  display: flex;
+  gap: 3rem;
+}
+
+.parte-1-footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.parte-1-footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+.parte-2-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+  border-bottom: 1px solid gray;
+}
+
+.parte-2-footer form button {
+  border: none;
+  background-color: #4f4fe6;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.parte-2-footer form input {
+  padding: 0.3rem;
+  margin-right: 1rem;
+}
+
+.parte-2-footer p {
+  color: gray;
+}
+
+.parte-3-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.parte-3-footer p {
+  color: gray;
+}
+
+#parte-2-footer-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.container-icons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.container-icons i {
+  font-size: 1.3rem;
+  color: gray;
+}
+
+/* 
+@media (max-width: 1280px) {
+  body {
+    background-color: orange;
+  }
+
+  #logo-meteor {
+    color: red;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .container-principal-banner h1 {
+    font-size: 1.3rem;
+  }
+
+  .container-geral-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-card {
+    width: 80%;
+  }
+} */
+
+@media (max-width: 940px) {
+  .title-card {
+    font-size: 18px;
+  }
+
+  .container-card p {
+    font-size: 15px;
+  }
+
+  .container-principal-banner h1 {
+    font-size: 40px;
+  }
+
+  .container-principal-banner p {
+    font-size: 20px;
+  }
+
+  .container-div-faq h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 890px) {
+  .container-card {
+    padding: 25px;
+  }
+
+  .container-geral-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 740px) {
+  .container-card {
+    width: 60%;
+  }
+}
+
+@media (max-width: 810px) {
+    .parte-2-footer form button {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 650px) {
+  header ul {
+    font-size: 14px;
+  }
+
+  .parte-1-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    padding-bottom: 18px;
+  }
+
+  .parte-1-footer i {
+    margin-right: 15px;
+  }
+
+  .parte-1-footer nav {
+    font-size: 13px;
+  }
+
+  .container-div-faq h2 {
+    font-size: 25px;
+  }
+
+  .container-div-faq ul {
+    font-size: 14px;
+  }
+
+  .parte-2-footer input {
+    font-size: 12px;
+  }
+
+  .parte-2-footer form button {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 600px) {
+  header ul {
+    font-size: 13px;
+  }
+
+  nav ul {
+    gap: 1.5rem;
+  }
+
+  #logo-meteor {
+    font-size: 28px;
+  }
+
+  header a {
+    font-size: 13px;
+  }
+
+  .container-principal-banner h1 {
+    font-size: 2rem;
+  }
+
+  .pricing-content {
+    font-size: 0.2rem;
+  }
+
+  .container-principal-banner p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 525px) {
+
+  header {
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #logo-meteor {
+    font-size: 20px;
+  }
+
+  header nav {
+    font-size: 2px;
+  }
+  
+  .parte-1-footer i {
+    font-size: 1rem;
+  }
+
+  .parte-1-footer nav {
+    font-size: 10px;
+  }
+}
